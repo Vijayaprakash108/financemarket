@@ -2,5 +2,13 @@
   "name": "financeMarket",
   "app_id": "0607359f",
   "type": "ionic1",
-  "integrations": {}
+  "integrations": {
+    "gulp": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
